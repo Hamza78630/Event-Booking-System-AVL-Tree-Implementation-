@@ -17,9 +17,3 @@ For the core engine, I chose an **AVL Tree** (a self-balancing binary search tre
 * **Recurring Event Engine:** Used a Linked List structure to handle sequences of events, validating each one against the AVL tree before adding them to the schedule.
 * **Custom Date Handling:** I built an `EventDate` class from scratch to handle leap years, month-end rollovers, and chronological comparisons.
 * **Memory Management:** Focused on using pointers and dynamic memory allocation for tree nodes and list elements.
-
-## How to run
-1. Download the `main.cpp` file.
-2. Open your terminal in that folder.
-3. Compile it: `g++ main.cpp -o scheduler`
-4. Run it: `./scheduler`
